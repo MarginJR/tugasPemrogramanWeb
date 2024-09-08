@@ -6,16 +6,16 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class ProfileTableSeeder extends Seeder
+class MahasiswaTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        DB::table('profiles')->insert([
-            'name' => 'Harisz Ryadi',
-            'email' => 'harisz.ryadi17@gmail.com'
+        DB::table('mahasiswa')->insert([
+            'nim' => 'D11176083',
+            'nama' => 'Muhammad Harisz Ryadi'
         ]);
     }
 }
